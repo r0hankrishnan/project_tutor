@@ -4,7 +4,7 @@
 from PyPDF2 import PdfReader
 
 # creating a pdf reader object
-reader = PdfReader('./pdf_reader/islp_sample.pdf')
+reader = PdfReader('./pdf_reader/data/islp_sample.pdf')
 
 # printing number of pages in pdf file
 print(len(reader.pages))
